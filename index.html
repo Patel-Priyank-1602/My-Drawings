@@ -4,91 +4,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Drawings</title>
+    <title>Priyank Patel | Artwork Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav>
-            <div class="header-left">
-                <ul>
-                    <li>
-                        <h1>Patel Priyank</h1>
-                    </li>
-                </ul>
-                <ul>
-                    <li>All My Drawings</li>
-                </ul>
-            </div> <br>
-            <div class="header-right">
-                <img src="Priyank.jpg" alt="Profile Picture">
-            </div>
-        </nav>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>Priyank Patel</h1>
+                </div>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="Priyank.jpg" alt="Priyank Patel">
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <hr>
-        <div class="header-center">
-            <h2>RCB LOGO</h2>
+    <div class="hero">
+        <div class="container">
+            <h2>Welcome to My Artwork Collection</h2>
+            <p>Explore My Drawings</p>
         </div>
-        <hr>
-        <div class="image-container">
-            <div class="image-item">
-                <img src="RCB_Sketch_Vako.jpg" alt="Tyson">
-                <a href="RCB_Sketch_Vako.jpg" download="RCB_Sketch_Vako.png" class="download-btn">Download</a>
-            </div>
-            <div class="image-item">
-                <img src="RCB_Plain_Vako.jpg" alt="Kai">
-                <a href="RCB_Plain_Vako.jpg" download="RCB_Plain_Vako.png" class="download-btn">Download</a>
-            </div>
-        </div>
+    </div>
 
-        <section>
-            <hr>
-            <div class="header-center">
-                <h2>Beyblade Bladebreakers Original Four Characters</h2>
+    <main class="container">
+        <section class="gallery-section">
+            <div class="section-header">
+                <h2>RCB Logo Collection</h2>
+                <p>My interpretation of the Royal Challengers Bangalore cricket team logo</p>
             </div>
-            <hr>
-            <div class="image-container">
-                <div class="image-item">
-                    <img src="Tyson.png" alt="Tyson">
-                    <a href="Tyson.png" download="Tyson.png" class="download-btn">Download</a>
+            
+            <div class="gallery">
+                <div class="gallery-item">
+                    <div class="image-wrapper">
+                        <img src="RCB_Sketch_Vako.jpg" alt="RCB Logo Sketch" loading="lazy">
+                        <div class="overlay">
+                            <span>RCB Logo Sketch</span>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <a href="RCB_Sketch_Vako.jpg" download="RCB_Sketch_Vako.png" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
                 </div>
-                <div class="image-item">
-                    <img src="Kai.png" alt="Kai">
-                    <a href="Kai.png" download="Kai.png" class="download-btn">Download</a>
-                </div>
-                <div class="image-item">
-                    <img src="Ray.png" alt="Ray">
-                    <a href="Ray.png" download="Ray.png" class="download-btn">Download</a>
-                </div>
-                <div class="image-item">
-                    <img src="Max.png" alt="Max">
-                    <a href="Max.png" download="Max.png" class="download-btn">Download</a>
+                
+                <div class="gallery-item">
+                    <div class="image-wrapper">
+                        <img src="RCB_Plain_Vako.jpg" alt="RCB Logo Plain" loading="lazy">
+                        <div class="overlay">
+                            <span>RCB Logo Plain Version</span>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <a href="RCB_Plain_Vako.jpg" download="RCB_Plain_Vako.png" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <div class="Instagram">
-            <hr>
-            <h3>Visit My Instagram For More Information</h3><br>
-            <a href="https://www.instagram.com/patelpriyank.d/">
-                <img src="Instagram.jpg" alt="Instagram">
-            </a>
-            <hr>
-        </div>
+        <section class="gallery-section">
+            <div class="section-header">
+                <h2>Beyblade Bladebreakers</h2>
+                <p>Original Four Characters from the Anime Series</p>
+            </div>
+            
+            <div class="gallery">
+                <div class="gallery-item">
+                    <div class="image-wrapper">
+                        <img src="Tyson.png" alt="Tyson from Beyblade" loading="lazy">
+                        <div class="overlay">
+                            <span>Tyson</span>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <a href="Tyson.png" download="Tyson.png" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="image-wrapper">
+                        <img src="Kai.png" alt="Kai from Beyblade" loading="lazy">
+                        <div class="overlay">
+                            <span>Kai</span>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <a href="Kai.png" download="Kai.png" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="image-wrapper">
+                        <img src="Ray.png" alt="Ray from Beyblade" loading="lazy">
+                        <div class="overlay">
+                            <span>Ray</span>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <a href="Ray.png" download="Ray.png" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="image-wrapper">
+                        <img src="Max.png" alt="Max from Beyblade" loading="lazy">
+                        <div class="overlay">
+                            <span>Max</span>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <a href="Max.png" download="Max.png" class="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="social-section">
+            <div class="section-header">
+                <h2>Connect With Me</h2>
+                <p>Follow my art journey and see more of my work</p>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://www.instagram.com/patelpriyank.d/" class="social-link instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <div class="footer-content">
-            <h3>Contact</h3>
-            <p>+91 9512771016</p>
-            <p>patelpriyank2526@gmail.com</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Priyank Patel</h3>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Me</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +91 9512771016</li>
+                        <li><i class="fas fa-envelope"></i> patelpriyank2526@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Priyank Patel. All rights reserved.</p>
+            </div>
         </div>
     </footer>
-
 </body>
 
 </html>
